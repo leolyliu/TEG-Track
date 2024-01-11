@@ -80,7 +80,7 @@ The dataset is organized as:
 * ```./{object_category}/{sequence_name}/depth```: Depth images captured from the visual sensor.
 * ```./{object_category}/{sequence_name}/visual_point_cloud```: A downsampled object point cloud under the world coordinate system for each frame.
 * ```./{object_category}/{sequence_name}/object_mask```: Object 2D mask annotation for each frame.
-    + The object pixels are shown as the red (RGB : (255, 0, 0) ) color.
+    + The object pixels are shown as the dark red (RGB : (128, 0, 0) ) color.
     + Other pixels are shown as the black (RGB : (0, 0, 0) ) color.
 
 #### (3) Left Tactile Sencor Signals
@@ -112,3 +112,7 @@ Definitions for signals captured from the tactile sensor at the right pad are ve
     + ```left_contact_points``` and ```right_contact_points```: 3D positions of contact points in the world coordinate system.
     + ```left_mean_contact_velocities``` and ```right_mean_contact_velocities```: 3D velocities of contact points in the world coordinate system.
     + ```dt```: The time difference between adjacent frames. The unit is second (s).
+
+### Example Codes
+
+To read the dataset and visualize color images, please refer to ```dataset_utils/read_data.py```.
