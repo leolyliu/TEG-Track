@@ -10,10 +10,17 @@ Yun Liu, Xiaomeng Xu, Weihang Chen, Haocheng Yuan, He Wang, Jing Xu, Rui Chen, L
 
 TODO:
 
-* dataset link
-* code
+* code of TEG-Track method
 
 ## Dataset
+
+### Data Download
+
+Currently, please download the whole dataset (184GB) or a preview version (5GB) from [Baidu Netdisk](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq).
+
+We will also release the dataset on One Drive soon.
+
+### Data Usage
 
 Please refer to ```docs/dataset_documentation.md``` for details of our dataset.
 
