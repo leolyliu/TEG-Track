@@ -2,7 +2,7 @@
 
 [RAL 2023] Official repository of "Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing".
 
-### 📄[Paper](https://arxiv.org/pdf/2210.04026.pdf) | 🎥[Dataset]([https://arxiv.org/pdf/2210.04026.pdf](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq))
+### 📄[Paper](https://arxiv.org/pdf/2210.04026.pdf) | 🎥[Dataset](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq)
 
 #### Authors
 
