@@ -18,11 +18,15 @@ TODO:
 
 Currently, please download the whole dataset (184GB) or a preview version (5GB) from [Baidu Netdisk](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq).
 
+To merge the files and get the zip file of the whole dataset, please use: ```cat Overall_Dataset_Split* >Overall_Dataset.zip```.
+
 We will also release the dataset on One Drive soon.
 
 ### Data Usage
 
 Please refer to ```docs/dataset_documentation.md``` for details of our dataset.
+
+If you have any questions about the dataset, please contact ```yun-liu22@mails.tsinghua.edu.cn```.
 
 ## Code
 
