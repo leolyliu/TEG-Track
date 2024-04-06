@@ -2,7 +2,7 @@
 
 [RAL 2023] Official repository of "Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing".
 
-### 📄[Paper](https://arxiv.org/pdf/2210.04026.pdf) | 🎥[Dataset](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq)
+### 📄[Paper](https://arxiv.org/pdf/2210.04026.pdf) | 🎥[Dataset](https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw)
 
 #### Authors
 
@@ -16,11 +16,9 @@ TODO:
 
 ### Data Download
 
-Currently, please download the whole dataset (184GB) or a preview version (5GB) from [Baidu Netdisk](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq).
+Please download the whole dataset (184GB) or a preview version (5GB) from [One Drive](https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw) or [Baidu Netdisk](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq).
 
 To merge the files and get the zip file of the whole dataset, please use: ```cat Overall_Dataset_Split* >Overall_Dataset.zip```.
-
-We will also release the dataset on One Drive soon.
 
 ### Data Usage
 
