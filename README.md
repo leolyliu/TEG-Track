@@ -35,13 +35,16 @@ TODO
 If you find our work useful in your research, please consider citing:
 
 ```
-@article{liu2023enhancing,
-  title={Enhancing generalizable 6d pose tracking of an in-hand object with tactile sensing},
+@ARTICLE{10333330,
   author={Liu, Yun and Xu, Xiaomeng and Chen, Weihang and Yuan, Haocheng and Wang, He and Xu, Jing and Chen, Rui and Yi, Li},
-  journal={IEEE Robotics and Automation Letters},
-  year={2023},
-  publisher={IEEE}
-}
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Enhancing Generalizable 6D Pose Tracking of an In-Hand Object With Tactile Sensing}, 
+  year={2024},
+  volume={9},
+  number={2},
+  pages={1106-1113},
+  keywords={Visualization;Kinematics;Sensors;Robots;Tracking;Three-dimensional displays;Tactile sensors;Force and tactile sensing;sensor fusion;visual tracking},
+  doi={10.1109/LRA.2023.3337690}}
 ```
 
 ## Email
