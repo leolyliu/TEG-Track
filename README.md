@@ -45,7 +45,7 @@ Please use the following commands:
 
 ```x
 cd code/tracking
-python TEG_Track_ShapeAlign.py --dataset_dir <the path of the dataset> --completed_point_cloud_dir <the path of completed object point clouds of the first frame> --tracking_save_sir <the path to save the tracking results> --kinematics_save_dir <the path to save the computed object kinematic states>
+python TEG_Track_ShapeAlign.py --dataset_dir <the path of the dataset> --completed_point_cloud_dir <the path of completed object point clouds of the first frame> --tracking_save_sir <the path to save the tracking results> --kinematics_save_dir <the path to load the computed object kinematic states (if provided)>
 ```
 
 ### Training the Learning-based Velocity Predictor

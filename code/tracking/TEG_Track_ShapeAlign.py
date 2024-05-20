@@ -251,6 +251,7 @@ if __name__ == "__main__":
             ids = list(np.arange(0, 401))
 
             use_completed_point_cloud = True
-            completed_point_cloud = join(completed_point_cloud_dir, obj_category, sequence_name, "completed_point_cloud", "0000.ply")
+            completed_point_cloud_path = join(completed_point_cloud_dir, obj_category, sequence_name, "completed_point_cloud", "0000.ply")
+            completed_point_cloud = np.array(o3d.io.read_point_cloud(completed_point_cloud_path).points)
             
             solve(sequence_name=sequence_name, sequence_dir=join(category_dir, sequence_name), save_dir=tracking_save_dir, kinematics_save_root=kinematics_save_dir, ids=ids, N_frames=5, use_completed_point_cloud=use_completed_point_cloud, completed_point_cloud=completed_point_cloud, sym_axis=sym_axis, shape_xyz=shape_xyz)
