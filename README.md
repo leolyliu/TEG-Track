@@ -39,7 +39,7 @@ conda activate tegtrack
 pip install -r requirements.txt
 ```
 
-### Kinematic-only Method
+### Kinematics-only Method
 
 Please use the following commands:
 
