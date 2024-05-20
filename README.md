@@ -50,11 +50,15 @@ python kinematics_only.py --dataset_dir <the path of the dataset> --tracking_sav
 
 ### TEG-Track(ShapeAlign)
 
-Please use the following commands:
+ShapeAlign is a simple vision-based tracking method designed by ourselves, which first completes the object point cloud observed in the first frame to an integral object model, and then track the object pose by fitting the visual observations to the object model. The completion is done by pre-trained PoinTr networks. We provide the point cloud completion results in our dataset (```preprocessed_completed_point_cloud_data.zip```).
+
+To run TEG-Track(ShapeAlign), please first download ```preprocessed_completed_point_cloud_data.zip``` and unzip it.
+
+Then, please use the following commands:
 
 ```x
 cd code/tracking
-python TEG_Track_ShapeAlign.py --dataset_dir <the path of the dataset> --completed_point_cloud_dir <the path of completed object point clouds of the first frame> --tracking_save_sir <the path to save the tracking results> --kinematics_save_dir <the path to load the computed object kinematic states (if provided)>
+python TEG_Track_ShapeAlign.py --dataset_dir <the path of the dataset> --completed_point_cloud_dir <the path of the completed point cloud data> --tracking_save_sir <the path to save the tracking results> --kinematics_save_dir <the path to load the computed object kinematic states (if provided)>
 ```
 
 ### Training the Learning-based Velocity Predictor
