@@ -28,7 +28,16 @@ We provide the implementation of TEG-Track(ShapeAlign) and the kinematics-only m
 
 ### Installation
 
-TODO
+Our code is tested on Ubuntu 20.04 with a single NVIDIA GeForce RTX 3090. The Driver version is 535.171.04. The CUDA version is 12.2.
+
+To set up the envoronment, please refer to the following commands:
+
+```x
+conda create -n tegtrack python=3.7
+conda activate tegtrack
+<install PyTorch, we use PyTorch v1.10.1>
+pip install -r requirements.txt
+```
 
 ### Kinematic-only Method
 
