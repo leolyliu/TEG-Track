@@ -8,10 +8,6 @@
 
 Yun Liu*, Xiaomeng Xu*, Weihang Chen, Haocheng Yuan, He Wang, Jing Xu, Rui Chen, Li Yi
 
-TODO:
-
-* code of TEG-Track method
-
 ## Dataset
 
 ### Data Download
@@ -28,7 +24,38 @@ If you have any questions about the dataset, please contact ```yun-liu22@mails.t
 
 ## Code
 
+We provide the implementation of TEG-Track(ShapeAlign) and the kinematics-only method.
+
+### Installation
+
 TODO
+
+### Kinematic-only Method
+
+Please use the following commands:
+
+```x
+cd code/tracking
+python kinematics_only.py --dataset_dir <the path of the dataset> --tracking_save_sir <the path to save the tracking results> --kinematics_save_dir <the path to save the computed object kinematic states>
+```
+
+### TEG-Track(ShapeAlign)
+
+Please use the following commands:
+
+```x
+cd code/tracking
+python TEG_Track_ShapeAlign.py --dataset_dir <the path of the dataset> --completed_point_cloud_dir <the path of completed object point clouds of the first frame> --tracking_save_sir <the path to save the tracking results> --kinematics_save_dir <the path to save the computed object kinematic states>
+```
+
+### Training the Learning-based Velocity Predictor
+
+Please use the following commands:
+
+```x
+cd code/tactile_learning
+python main.py --dataset_dir <the path of the dataset> --save_dir <the path to save the checkpoints>
+```
 
 ## Citation
 
