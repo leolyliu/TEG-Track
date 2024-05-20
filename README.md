@@ -14,7 +14,7 @@ Yun Liu*, Xiaomeng Xu*, Weihang Chen, Haocheng Yuan, He Wang, Jing Xu, Rui Chen,
 
 Please download the whole dataset (184GB) or a preview version (5GB) from [One Drive](https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw).
 
-To merge the files and get the zip file of the whole dataset, please use: ```cat Overall_Dataset_Split* >Overall_Dataset.zip```.
+To merge the files and get the zip file of the whole dataset, please use: ```cat Overall_Dataset_Split* >Overall_Dataset.zip```. After unzipping the dataset, merge it with ```object_tactile_point_clouds.zip``` to integrate pre-processed object points contacting the sensor surfaces. Finally, the folder of each video sequence (e.g. ```0907_bottle1_1_003```) should include 17 sub-folders.
 
 ### Data Usage
 
