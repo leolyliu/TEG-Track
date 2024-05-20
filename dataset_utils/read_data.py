@@ -52,6 +52,11 @@ def read_tactile_sensor_depth(file_path):
     return depth
 
 
+def read_tactile_sensor_point_cloud(file_path):
+    object_tactile_point_cloud = o3d.io.read_point_cloud(file_path)
+    return object_tactile_point_cloud
+
+
 def read_tactile_sensor_pad_pose(file_path):
     pad2world = np.loadtxt(file_path)
     return pad2world
@@ -113,12 +118,14 @@ def visualize_one_sequence(data_dir, save_dir):
         # left tactile sensor signals
         left_rgb = read_tactile_sensor_rgb(join(data_dir, "left_rgb", frame_name + ".png"))
         left_depth = read_tactile_sensor_depth(join(data_dir, "left_depth", frame_name + ".png"))
+        left_point_cloud = read_tactile_sensor_point_cloud(join(data_dir, "left_point_cloud", frame_name + ".ply"))
         leftpad_to_world = read_tactile_sensor_pad_pose(join(data_dir, "left_pad_pose", frame_name + ".txt"))
         left_marker_pixels = read_tactile_sensor_marker_pixels(join(data_dir, "left_marker_point_positions", frame_name + ".txt"))
 
         # right tactile sensor signals
         right_rgb = read_tactile_sensor_rgb(join(data_dir, "right_rgb", frame_name + ".png"))
         right_depth = read_tactile_sensor_depth(join(data_dir, "right_depth", frame_name + ".png"))
+        right_point_cloud = read_tactile_sensor_point_cloud(join(data_dir, "right_point_cloud", frame_name + ".ply"))
         rightpad_to_world = read_tactile_sensor_pad_pose(join(data_dir, "right_pad_pose", frame_name + ".txt"))
         right_marker_pixels = read_tactile_sensor_marker_pixels(join(data_dir, "right_marker_point_positions", frame_name + ".txt"))
 

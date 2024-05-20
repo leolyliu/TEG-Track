@@ -16,7 +16,7 @@ TODO:
 
 ### Data Download
 
-Please download the whole dataset (184GB) or a preview version (5GB) from [One Drive](https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw) or [Baidu Netdisk](https://pan.baidu.com/s/1zU0-tTp9ySaqI5DdpSilLw?pwd=xvsq).
+Please download the whole dataset (184GB) or a preview version (5GB) from [One Drive](https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw).
 
 To merge the files and get the zip file of the whole dataset, please use: ```cat Overall_Dataset_Split* >Overall_Dataset.zip```.
 

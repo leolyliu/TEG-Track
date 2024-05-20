@@ -2,7 +2,7 @@
 
 Please download our dataset via the following links:
 
-* TODO
+* https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw
 
 ### Overview
 
@@ -47,6 +47,8 @@ The dataset is organized as:
     |--*.png
 |--left_depth
     |--*.png
+|--left_point_cloud
+	|--*.ply
 |--left_pad_pose
     |--*.txt
 |--left_marker_point_positions
@@ -55,6 +57,8 @@ The dataset is organized as:
     |--*.png
 |--right_depth
     |--*.png
+|--right_point_cloud
+	|--*.ply
 |--right_pad_pose
     |--*.txt
 |--right_marker_point_positions
@@ -89,6 +93,7 @@ Our robot gripper is equipped with two tactile sensors at the positions of its l
 
 * ```./{object_category}/{sequence_name}/left_rgb```: Color images captured from the left tactile sensor.
 * ```./{object_category}/{sequence_name}/left_depth```: Depth images captured from the left tactile sensor.
+* ```./{object_category}/{sequence_name}/left_point_cloud```: Object points contacting the left tactile sensor. The points are represented in the world coordinate system.
 * ```./{object_category}/{sequence_name}/left_pad_pose```: The pose of the left pad for each frame.
 * ```./{object_category}/{sequence_name}/left_marker_point_positions```: Precomputed marker point pixels of the left tactile sensor for each frame.
     + Note that we first crop a 320x320 image patch centered at (320, 240) of the original tactile image, and then compute marker positions at the image patch. The pixels are defined on the image patch.
@@ -99,7 +104,7 @@ Definitions for signals captured from the tactile sensor at the right pad are ve
 
 * ```./{object_category}/{sequence_name}/right_rgb```: Color images captured from the right tactile sensor.
 * ```./{object_category}/{sequence_name}/right_depth```: Depth images captured from the right tactile sensor.
-* ```./{object_category}/{sequence_name}/right_pad_pose```: The pose of the right pad for each frame.
+* ```./{object_category}/{sequence_name}/right_point_cloud```: Object points contacting the right tactile sensor. The points are represented in the world coordinate system. ```./{object_category}/{sequence_name}/right_pad_pose```: The pose of the right pad for each frame.
 * ```./{object_category}/{sequence_name}/right_marker_point_positions```: Precomputed marker point pixels of the right tactile sensor for each frame.
 
 #### (5) Object Pose Annotations
