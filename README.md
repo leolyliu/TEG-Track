@@ -1,6 +1,6 @@
-# 🌟 [RAL 2023] Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing 🌟
+# 🌟 [RA-L 2023] Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing 🌟
 
-[RAL 2023] Official repository of "Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing".
+[RA-L 2023] Official repository of "Enhancing Generalizable 6D Pose Tracking of an In-Hand Object with Tactile Sensing".
 
 ### 📄[Paper](https://arxiv.org/pdf/2210.04026.pdf) | 🎥[Dataset](https://1drv.ms/f/s!Ap-t7dLl7BFUaQ794lX1srGnwlQ?e=JgohXw)
 
